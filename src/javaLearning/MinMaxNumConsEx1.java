@@ -21,13 +21,16 @@ class MinMaxNum{
         System.out.println();
 
     }
+
+
+
 }
 
 public class MinMaxNumConsEx1 {
     public static void main(String[] args) {
         MinMaxNum mm=new MinMaxNum(new int[] {10,50,55,25,100});
         MinMaxNum mm1=new MinMaxNum(new int[] {255,155,655,333,55,655,725,25,88});
-        MinMaxNum mm2=new MinMaxNum(new int[] {10,100});
+        MinMaxNum mm2=new MinMaxNum(new int[] {100,1000});
     }
 
 }
